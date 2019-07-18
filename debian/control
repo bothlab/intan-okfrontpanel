@@ -1,0 +1,17 @@
+Source: intan-okfrontpanel
+Section: non-free/libs
+Priority: optional
+Maintainer: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper-compat (= 12),
+               meson,
+               udev
+Standards-Version: 4.3.0
+
+Package: intan-okfrontpanel
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Opal Kelly FrontPanel Library files as distributed by Intan
+ Contains the propriatery Opal Kelly FrontPanel Library file for use with
+ Intan Technologies hardware, as well as a udev rule to allow software to
+ use the devices without having root permissions.
